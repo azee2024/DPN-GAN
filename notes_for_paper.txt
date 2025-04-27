@@ -1,0 +1,29 @@
+Experiments:
+1. Dataset
+2. Model Setup
+3. Training Configurations
+4. Model Performance Results for Different Datasets
+5. Ablation Study
+6. Runtime Comparison
+7. Model Complexity
+
+
+Model Performance Metrics:
+
+Speech Synthesis:
+1. Perceptual Evaluation of Speech Quality (PESQ)
+2. Short-Time Objective Intelligibility (STOI)
+3. WARP-Q
+
+Audio Generation:
+1. Frechet Audio Distance (FAD)
+2. MCD_13
+3. RMSE_fo
+4. FDSD
+
+Materials and Methods:
+1. Component 1
+2. Component 2
+3. Component 3
+4. Training Objective
+5.

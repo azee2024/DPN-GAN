@@ -1,0 +1,9 @@
+{
+  "dataset_name": "AudioMNIST",
+  "batch_size": 2,
+  "num_channels": 4,
+  "mel_filters": 288,
+  "timeframes": 432,
+  "do_shuffle": true,
+  "audio_length": 90001
+}

@@ -1,0 +1,82 @@
+{
+    "generator_params": {
+        "mel_initiator_params": {
+            "in_channels": 1,
+            "out_channels": 32,
+            "kernel_size": 3,
+            "lstm_hidden_size": 64,
+            "lstm_num_layers": 2,
+            "dpn_depth": 2,
+            "audio_length": 1000,
+            "input_shape": [
+                1,
+                1
+            ]
+        },
+        "meta_initiator_params": {
+            "input_size": 152,
+            "hidden_size": 64,
+            "output_size": 32
+        },
+        "modulator_params": {
+            "ConvT_in_channels": 32,
+            "ConvT_out_channels": 32,
+            "ConvT_kernel_size": 3,
+            "in_channels": 32,
+            "out_channels": 64,
+            "kernel_size": 3,
+            "lstm_num_layers": 2,
+            "shape": [
+                1,
+                32,
+                128,
+                94
+            ],
+            "dpn_depth": 2
+        }
+    },
+    "discriminator_params": {
+        "msd_params": {
+            "params_avgpool": {
+                "kernel_size": 11,
+                "stride": 4
+            },
+            "params_distributor": {
+                "defconv_in_channels": 1,
+                "defconv_out_channels": 16,
+                "kernel_size": 3,
+                "kernel_list": [
+                    3
+                ],
+                "stride": 1,
+                "depth": 1
+            },
+            "params_final_msd": {
+                "kernel_size": 7,
+                "stride": 4,
+                "hidden_dims": 512
+            }
+        },
+        "mcd_params": {
+            "initiator_params": {
+                "height": 50,
+                "width": 20},
+
+                "convolver_params": {
+                    "in_channels": 1,
+                    "out_channels": 8,
+                    "kernel_size": 3,
+                    "kernel_list": [
+                        3
+                    ],
+                    "stride": 1,
+                    "depth": 1
+                },
+                "final_params": {
+                    "in_features": 0,
+                    "hidden_features": 512,
+                    "out_features": 2
+                }
+            }
+        }
+    }

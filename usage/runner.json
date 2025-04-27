@@ -1,0 +1,7 @@
+{
+  "input_path_arg": "usage/inputs_config_audiomnist.json",
+  "output_path_arg": "usage/output_config.json",
+  "data_config_path_arg": "usage/data_config_audiomnist.json",
+  "model_config_path_arg": "usage/model_config_audiomnist.json",
+  "run_config_path_arg": "usage/run_config.json"
+}

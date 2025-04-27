@@ -1,0 +1,72 @@
+Datasets:
+1.  The LJ Speech Dataset -> https://keithito.com/LJ-Speech-Dataset/
+2. VCTK Dataset -> https://datasets.activeloop.ai/docs/ml/datasets/vctk-dataset/
+3. MAPS (Midi Aligned Piano Dataset) -> https://paperswithcode.com/dataset/maps
+4. ENST-Drums -> https://github.com/georgid/ENST-drums-dataset/tree/master
+
+
+Standard Models:
+1. HiFi-GAN -> https://github.com/jik876/hifi-gan
+2. UnivNet -> https://huggingface.co/docs/transformers/en/model_doc/univnet
+3. SpecDiff-GAN -> https://github.com/KoMyeongJin/SpecDiff-GAN
+4. BigVGAN -> https://github.com/NVIDIA/BigVGAN
+5. FreGAN -> https://prml-lab-speech-team.github.io/demo/FreGAN/
+
+
+Metrics:
+Crossentropy: https://www.v7labs.com/blog/cross-entropy-loss-guide
+
+________________________________________________________________________________________________________________________
+Sections and Subsections:
+1. Introduction
+1.1. Introduction of Audio Dataset
+1.2. Introduction to Generative Adversarial Networks
+1.3. Literatures on Recent GAN applications for audio generation
+1.3. Limitations to solve
+1.4. Proposed Model
+
+2. Materials and Methods:
+2.1 Preliminaries:
+2.1.1 Deformable Convolution
+2.1.2 Periodic ReLU
+
+2.2 Proposed Model:
+2.2.1 Generator
+2.2.2 Discriminator
+2.2.3 Objective Loss
+
+3. Experimental Setup:
+3.1 Datasets:
+3.1.1 The LJ Speech Dataset
+3.1.2 VCTK Dataset
+3.1.3 MAPS (Mini Aligned Piano Dataset)
+3.1.4 ENST-Drums
+3.1.5 AudioMNIST
+
+3.2 Benchmark Models:
+3.2.1 Hifi-GAN
+3.2.2 UnivNet
+3.2.3 BigVGAN
+3.2.4 SpecDiff-GAN
+3.2.5 Fre-GAN
+
+3.3 Performance Metrices:
+3.3.1 Perceptual Evaluation of Speech Quality (PESQ)
+3.3.2 Short-Time Objective Intelligibility (STOI)
+3.3.3 WARP-Q
+3.3.4 Frechet Audio Distance (FAD)
+3.3.5 MCD_13
+3.3.6 RMSE_fo
+3.3.7 FDSD
+
+4. Results & Discussion
+4.1. Model Performance Results for Different Datasets
+4.2. Ablation Study
+4.3. Runtime Comparison
+4.4. Model Complexity
+
+5. Conclusions:
+5.1 Contribution to the Theory
+5.2 Contribution to the Practice
+5.3 Limitations
+5.4 Future Works

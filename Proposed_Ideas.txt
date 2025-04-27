@@ -1,0 +1,14 @@
+Generators:
+1. Knowledge Distillation
+2. Affine Transformation
+3. Z Space Distanglement
+4. Granulation
+5.
+
+
+Generator:
+1. Z Space Disentanglement
+2. Knowledge DIstillation
+
+Discriminator:
+1. Granulation

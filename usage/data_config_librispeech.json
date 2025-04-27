@@ -1,0 +1,9 @@
+{
+  "dataset_name": "LibriSpeech",
+  "batch_size": 1,
+  "num_channels": 1,
+  "mel_filters": 128,
+  "timeframes": 1021,
+  "do_shuffle": true,
+  "audio_length": 522720
+}

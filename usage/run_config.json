@@ -1,0 +1,5 @@
+{
+  "epochs": 20,
+  "generator_learning_rate": 2e-4,
+  "discriminator_learning_rate": 2e-4
+}
